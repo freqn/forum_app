@@ -29,7 +29,7 @@ belongs_to :user
 
 # Devise Notes
 
-**Use gem 'devise', github: 'plataformatec/devise', branch: 'lm-rails-4-2' in your Gemfile since Devise is not yet fully compatible with 4.2b1**
+**Use `gem 'devise', github: 'plataformatec/devise', branch: 'lm-rails-4-2'` in your Gemfile since Devise is not yet fully compatible with 4.2b1**
 
 Some setup you must do manually if you haven't yet:
 
