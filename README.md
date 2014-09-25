@@ -4,15 +4,19 @@
 * email
 * password
 
+```ruby
 has_many :forum_threads
-has_many :forum_post
+has_many :forum_posts
+```
 
 2. ForumThread
 
 * user_id:integer
 * subject:string
 
+```ruby
 belongs_to :user
+```
 
 3. ForumPost
 
@@ -20,10 +24,10 @@ belongs_to :user
 * user_id:integer
 * body:text
 
+```ruby
 belongs_to :forum_thread
 belongs_to :user
-
-
+```
 
 --------------------------------
 
