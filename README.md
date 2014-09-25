@@ -1,6 +1,6 @@
 # Database Structure
 
-1. User - Devise
+**User** - Devise
 * email
 * password
 
@@ -9,7 +9,7 @@ has_many :forum_threads
 has_many :forum_posts
 ```
 
-2. ForumThread
+**ForumThread**
 
 * user_id:integer
 * subject:string
@@ -18,7 +18,7 @@ has_many :forum_posts
 belongs_to :user
 ```
 
-3. ForumPost
+**ForumPost**
 
 * forum_thread_id:integer
 * user_id:integer
